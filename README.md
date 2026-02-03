@@ -36,19 +36,6 @@ The system runs a closed-loop control cycle:
 4.  **Measure:** LiDAR checks distance via I2C.
 5.  **Engage:** If distance < 20cm, GPIO High -> MOSFET Gate -> Fire.
 
-## 🚀 Usage
-1.  Clone the repo:
-    ```bash
-    git clone https://github.com/YOUR_USERNAME/RAMBO-Realtime-Tracking-Arm.git
-    ```
-2.  Install dependencies:
-    ```bash
-    pip install opencv-python pyserial smbus
-    ```
-3.  Run the controller:
-    ```bash
-    python src/main.py
-    ```
 
 ## 📊 Performance
 The system achieves real-time tracking at 30FPS with a reaction time suitable for low-speed ballistic interception.
