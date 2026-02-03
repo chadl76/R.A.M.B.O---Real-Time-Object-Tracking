@@ -1,8 +1,8 @@
-# RAMBO: Robotic Arm for Monitoring and Ballistic Operations 🦾
+# R.A.M.B.O: Robotic Arm for Monitoring and Ballistic Operations
 
 **Status:** Completed | **Tech Stack:** Raspberry Pi, Python, OpenCV, LiDAR
 
-![Hero GIF](./assets/Rambo.mp4)
+![Hero GIF](./assets/Rambo-gif.gif)
 *(A real-time demonstration of the autonomous tracking and firing system)*
 
 ## 📋 Abstract
