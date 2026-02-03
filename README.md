@@ -29,9 +29,6 @@ The system uses a mixed-voltage architecture handled by logic level shifters.
 *   **Servos:** 2x LX-16A Serial Bus Servos (UART Protocol)
 *   **Sensor:** TF-Luna LiDAR (I2C Protocol)
 
-### Circuit Schematic
-![Schematic](./assets/schematic_image_name.png)
-*LTSPICE schematic showing the power distribution and MOSFET switching logic.*
 
 ##  Software Logic
 The system runs a closed-loop control cycle:
@@ -41,8 +38,3 @@ The system runs a closed-loop control cycle:
 4.  **Measure:** LiDAR checks distance via I2C.
 5.  **Engage:** If distance < 20cm, GPIO High -> MOSFET Gate -> Fire.
 
-
-##  Performance
-The system achieves real-time tracking at 30FPS with a reaction time suitable for low-speed ballistic interception.
-
-![Tracking Demo](./assets/tracking_image.png)
