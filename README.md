@@ -3,6 +3,8 @@
 **Status:** Completed | **Tech Stack:** Raspberry Pi, Python, OpenCV, LiDAR
 
 ![Hero GIF](./assets/Rambo-gif.gif)
+
+
 *(A real-time demonstration of the autonomous tracking and firing system)*
 
 ## 📋 Abstract
@@ -10,7 +12,7 @@ This project implements an autonomous defense system capable of detecting, track
 
 [📄 **Read the full IEEE Technical Report**](./docs/EE452 IEEE Report Chad Lucas.pdf)
 
-![Title](./assests/title.png)
+![Title](./assets/title.png)
 ## ⚙️ Key Features
 *   **Computer Vision:** Real-time color masking and centroid tracking using OpenCV.
 *   **Sensor Fusion:** Combines visual data (X/Y) with LiDAR depth data (Z) for 3D threat assessment.
