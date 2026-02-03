@@ -21,6 +21,7 @@ This project implements an autonomous defense system capable of detecting, track
 *   **Actuation:** High-current DC motor control using an IRLZR44N N-Channel MOSFET.
 
 ##  Hardware Architecture
+![Hardware](./assets/hardware.png)
 The system uses a mixed-voltage architecture handled by logic level shifters.
 
 *   **Controller:** Raspberry Pi 4 (GPIO & USB Interface)
