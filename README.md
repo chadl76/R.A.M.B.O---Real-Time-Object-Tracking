@@ -22,6 +22,8 @@ This project implements an autonomous defense system capable of detecting, track
 
 ##  Hardware Architecture
 ![Hardware](./assets/hardware.png)
+
+
 The system uses a mixed-voltage architecture handled by logic level shifters.
 
 *   **Controller:** Raspberry Pi 4 (GPIO & USB Interface)
