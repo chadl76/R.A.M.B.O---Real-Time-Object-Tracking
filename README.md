@@ -8,8 +8,9 @@
 ## 📋 Abstract
 This project implements an autonomous defense system capable of detecting, tracking, and neutralizing targets in real-time. Integrating a Raspberry Pi with a 2-DOF servo turret and Computer Vision, the system maps 2D camera coordinates to physical 3D space. A TF-Luna LiDAR sensor provides continuous Time-of-Flight (ToF) ranging, acting as a safety interlock that only triggers the ballistic mechanism (DC Motor via MOSFET) when the target breaches a 20cm proximity threshold.
 
-[📄 **Read the full IEEE Technical Report**](./docs/Your_Report_Name.pdf)
+[📄 **Read the full IEEE Technical Report**](./docs/EE452 IEEE Report Chad Lucas.pdf)
 
+![Title](./assests/title.png)
 ## ⚙️ Key Features
 *   **Computer Vision:** Real-time color masking and centroid tracking using OpenCV.
 *   **Sensor Fusion:** Combines visual data (X/Y) with LiDAR depth data (Z) for 3D threat assessment.
